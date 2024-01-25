@@ -8,6 +8,7 @@ $(document).ready(function(){
             $(".menus a").css("color", "#175cff");
             $(".logo:hover").css("color", "#002d97");
             $(".menus a:hover").css("color", "#071c4d");
+            $(".signup:hover").css("color", "#175cff");
         }
 
         else{
@@ -17,6 +18,7 @@ $(document).ready(function(){
             $(".menus a").css("color", "#ffffff");
             $(".logo:hover").css("color", "#002d97");
             $(".menus a:hover").css("color", "#002d97");
+            $(".signup:hover").css("color", "#071c4d");
         }
     });
 

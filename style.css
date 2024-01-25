@@ -1,7 +1,7 @@
 :root {
     --primaryColor: #002d97;
     --secondaryColor: #071c4d;
-    --fontColor: #175cff;;
+    --fontColor: #175cff;
     --blackColor: #040507;
     --whiteColor: #ffffff;
     --background: linear-gradient(#071c4d, #175cff);
@@ -73,8 +73,8 @@ body{
 
 .signup{
     text-decoration: none;
-    color: var(--fontColor);
-    background-color: var(--secondaryColor);
+    color: #ffffff;
+    background-color: #175cff;
     border: 2px solid var(--secondaryColor);
     border-radius: 20px;
     padding: 5px 15px;
@@ -82,7 +82,8 @@ body{
 
 .signup:hover{
     background-color: transparent;
-    color:#ffffff;
+    background-color:#ffffff;
+    color: #175cff;
 }
 
 .header{
@@ -366,6 +367,7 @@ body{
     padding: 2%;
     color: var(--whiteColor);
     background-color: rgba(0, 0, 0, 0.7);
+ 
 }
 
 .contact p{
@@ -375,28 +377,31 @@ body{
 .contact-form{
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    height: 40px;
+    width: 60rem;
+    height: 4rem;
     background-color: #040507;
     padding: 5px;
     margin: 20px 0;
 }
 
 .contact-form input{
+    align-items: center;
     width: 80%;
     height: 100%;
     border: none;
     color: var(--whiteColor);
     background-color: transparent;
+    font-size: large;
+    font-style: oblique;
 }
 
 .contact-btn{
     display: inline-block;
     text-decoration: none;
     color:rgb(235, 231, 225);
-    border: 1px solid rgb(238, 232, 223);
+    border: 10px solid rgb(238, 232, 223);
     padding: 10px 30px;
-    font-size: 10px;
+    font-size: 16px;
     background: transparent;
     position: relative ;
     cursor: pointer;
@@ -421,15 +426,16 @@ body{
 }
 
 .footer-menus{
+    display: flex;
     flex: 1;
     padding: 2%;
-    max-width: 500px;
+    align-items: center;
 }
 
 .footer-wrapper{
     display: flex;
     margin: 10px;
-    justify-content: flex-start;
+    justify-content: center;
     width: 60%;
 }
 
@@ -437,11 +443,13 @@ body{
     display: flex;
     flex-direction: column;
     min-width: 50%;
+    align-items: center;
 }
 
 .footer-card h3{
     color: var(--whiteColor);
     margin-bottom: 0.5rem;
+
 }
 
 .footer-card h5{
@@ -460,6 +468,15 @@ body{
 .footer-card a:hover{
     color:#ffffff;
     font-size: 22px;
+}
+
+.footer-card>p{
+    margin-bottom: 10px;
+}
+
+.footer-card>h3:hover{
+    color:#071c4d;
+
 }
 
 
