@@ -480,7 +480,7 @@ body{
 }
 
 
-@media(max-width: 700px){
+@media(max-width: 1080px){
     .menu-toggle,
     .bar{
         display: block;
@@ -502,9 +502,9 @@ body{
     .menus{
         flex-direction: column;
         position: absolute;
-        top: 0;
+/*         top: 0;
         bottom: 0;
-        left: 0;
+        left: 0; */
         width: 100%;
         height: 100vh;
         text-align: center;
